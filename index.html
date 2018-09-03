@@ -2,617 +2,836 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="js/script-new.js"></script>
+	<title>Document</title>
 </head>
 
 <body>
-    <div class="headerNew clearfix">
-       <div class="container">
-        <ul class="navnew">
-           <li class="navnew__list">
-               <a href="#" class="navnew__link"> О нас </a>
-           </li>
-           <li class="navnew__list">
-               <a href="#" class="navnew__link"> Услуги </a>
-           </li>
-           <li class="navnew__list">
-               <a href="#" class="navnew__link"> Обучение </a>
-           </li>
-           <li class="navnew__knop">
-               <a href="#" class="navnew__knop__link"> 0552595005 </a>
-           </li>
-       </ul>
-   </div>
-</div>
+	<div class="reklam">
+		<div class="container">
+			<ul class="nav__list">
+				<li class="nav__item reklam__item">
+					29 сен. Семинар:
+				</li>
+				<li class="nav__item reklam__item">
+					Возлюби болезнь свою 
+				</li>
+				<li class="nav__item reklam__item">
+					<img src="img/reklam.jpg" alt="logo" class="foto__reklam">
+					Валерий Синельников
+				</li>
+				<li class="nav__item reklam__item">
+					<a href="https://sinelnikov.org.kg/" class="btn btn-primary" target="_blank">Перейти</a>
+				</li>
+				<li class="nav__item reklam__item">
+					<i class="fas fa-times reklam__x"></i>
+				</li>
 
-<div class="container">
-    <div class="menuNew">
-        <ul class="nav__list">
-            <li class="nav__item">
-                <img src="img/logo1.png" alt="logo" class="newlogo">
-            </li>
-            <li class="nav__item">
-              <a href="#" class="navnew__knop__link"> Продать </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="navnew__knop__link_col"> Купить </a>
-        </li>
-        <li class="nav__item">
-           <a href="#" class="navnew__knop__link"> Обменять </a>
-       </li>
-       <li class="nav__item">
-        <a href="#" class="navnew__knop__link_col"> Ищу инвестр. </a>
-    </li>
-</ul>
-</div>
+			</ul>
+		</div>
+	</div>
+	<div class="headerNew clearfix">
+		<div class="container">
+			<ul class="navnew">
+				<li class="navnew__list">
+					<a href="#about" class="navnew__link"> О нас </a>
+				</li>
+				<li class="navnew__list">
+					<!-- <div data-toggle="modal" data-target="#callOrder" class="navnew__link" data-whatever="Услуги"> Услуги </div> -->
+					<a href="#uslugi" class="navnew__link"> Услуги </a>
+				</li>
+				<li class="navnew__list">
+					<!-- <div data-toggle="modal" data-target="#callOrder" class="navnew__link" data-whatever="Обучение"> Обучение </div> -->
+					<a href="#obucheniye" class="navnew__link"> Обучение </a>
+				</li>
+				<li class="navnew__knop">
+					<div data-toggle="modal" data-target="#callOrder" class="navnew__knop__link" data-whatever="Звонок"> 0552595005 </div>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-<div class="backnew">
-    <div class="backnew__info">
-        <div class="backnew__title">
-            Продажа готового бизнеса и франшаз Кыргызской Республике
-        </div>
-        <div class="search">
-            <div class="input-group">
-                <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </div>
-                <input type="text" class="form-control" id="exampleInputAmount" placeholder="поиск">
-            </div>
-        </div>
-        <div class="video__new">
-            <div class="vidres">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/O-aa1YeQUmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</div>
+	<div class="container">
+		<div class="menuNew">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<img src="img/logo1.png" alt="logo" class="newlogo">
+				</li>
+				<li class="nav__item">
+					<div class="navnew__knop__link"  data-toggle="modal" data-target="#exampleModal" data-whatever="Продать"> Продать </div>
+				</li>
+				<li class="nav__item">
+					<div class="navnew__knop__link_col"  data-toggle="modal" data-target="#exampleModal" data-whatever="Купить"> Купить </div>
+				</li>
+				<li class="nav__item">
+					<div class="navnew__knop__link"  data-toggle="modal" data-target="#exampleModal" data-whatever="Обменять"> Обменять </div>
+				</li>
+				<li class="nav__item">
+					<div class="navnew__knop__link_col"  data-toggle="modal" data-target="#exampleModal" data-whatever="Ищу инвестр."> Ищу инвестр. </div>
+				</li>
+			</ul>
+		</div>
 
-<div class="bisnesFoto">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="bisnesFoto__block">
-                <a href="#" class="new__title navnew__link">
-                    Готовый Бизнес
-                </a>
-                <div class="bisnesFoto__block_mini">
-                    <div class="new__info_title_new">
-                       Автомойка с постоянными клиентами
-                   </div>
-                   <div class="bisnesFoto__new__image">
-                    <div class="new__image">
-                       <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                   </div>
-                   <div class="bisnesFoto__block_total">
-                       100 000
-                   </div>
-               </div>                
-               <div class="new__info">
-                <div class="new__info_text_new">
-                    Прибыль: 95000 сом <br>
-                    Город: Бишкек
-                </div>
-                <div class="new__more_new">
-                    <a href="#" class="new__more_icon">
-                        подробнее
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bisnesFoto__block_mini">
-        <div class="new__info_title_new">
-           Автомойка с постоянными клиентами
-       </div>
-       <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           70 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-       Автомойка с постоянными клиентами
-   </div>
-   <div class="bisnesFoto__new__image">
-    <div class="new__image">
-       <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-   </div>
-   <div class="bisnesFoto__block_total">
-       80 000
-   </div>
-</div>                
-<div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-    <div class="bisnesFoto__block">
-        <a href="#" class="new__title navnew__link">
-            Бизнес - Актив
-        </a>
-        <div class="bisnesFoto__block_mini">
-            <div class="new__info_title_new">
-                Автомойка с постоянными клиентами
-            </div>
-            <div class="bisnesFoto__new__image">
-                <div class="new__image">
-                   <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-               </div>
-               <div class="bisnesFoto__block_total">
-                   150 000
-               </div>
-           </div>                
-           <div class="new__info">
-            <div class="new__info_text_new">
-                Прибыль: 95000 сом <br>
-                Город: Бишкек
-            </div>
-            <div class="new__more_new">
-                <a href="#" class="new__more_icon">
-                    подробнее
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-        Автомойка с постоянными клиентами
-    </div>
-    <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           250 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-        Автомойка с постоянными клиентами
-    </div>
-    <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           300 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-    <div class="bisnesFoto__block">
-        <a href="#" class="new__title navnew__link">
-            Бартер
-        </a>
-        <div class="bisnesFoto__block_mini">
-            <div class="new__info_title_new">
-                Автомойка с постоянными клиентами
-            </div>
-            <div class="bisnesFoto__new__image">
-                <div class="new__image">
-                   <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-               </div>
-               <div class="bisnesFoto__block_total">
-                   200 000
-               </div>
-           </div>                
-           <div class="new__info">
-            <div class="new__info_text_new">
-                Прибыль: 95000 сом <br>
-                Город: Бишкек
-            </div>
-            <div class="new__more_new">
-                <a href="#" class="new__more_icon">
-                    подробнее
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-        Автомойка с постоянными клиентами
-    </div>
-    <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           1 000 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-        Автомойка с постоянными клиентами
-    </div>
-    <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           100 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-    <div class="bisnesFoto__block">
-        <a href="#" class="new__title navnew__link">
-            Коммерческая недвижимость
-        </a>
-        <div class="bisnesFoto__block_mini">
-            <div class="new__info_title_new">
-                Автомойка с постоянными клиентами
-            </div>
-            <div class="bisnesFoto__new__image">
-                <div class="new__image">
-                   <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-               </div>
-               <div class="bisnesFoto__block_total">
-                   100 000
-               </div>
-           </div>                
-           <div class="new__info">
-            <div class="new__info_text_new">
-                Прибыль: 95000 сом <br>
-                Город: Бишкек
-            </div>
-            <div class="new__more_new">
-                <a href="#" class="new__more_icon">
-                    подробнее
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-        Автомойка с постоянными клиентами
-    </div>
-    <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           250 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
+		<div class="backnew">
+			<div class="backnew__info">
+				<div class="backnew__title">
+					Продажа готового бизнеса и франшаз Кыргызской Республике
+				</div>
+				<div class="search">
+					<div class="col-auto">
+						<div class="input-group mb-2">
+							<div class="input-group-prepend">
+								<div class="input-group-text"><i class="fas fa-search"></i></div>
+							</div>
+							<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="ПОИСК">
+						</div>
+					</div>
+				</div>
+				<div class="video__new">
+					<div class="vidres">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/O-aa1YeQUmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<div class="bisnesFoto__block_mini">
-    <div class="new__info_title_new">
-        Автомойка с постоянными клиентами
-    </div>
-    <div class="bisnesFoto__new__image">
-        <div class="new__image">
-           <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-       </div>
-       <div class="bisnesFoto__block_total">
-           500 000
-       </div>
-   </div>                
-   <div class="new__info">
-    <div class="new__info_text_new">
-        Прибыль: 95000 сом <br>
-        Город: Бишкек
-    </div>
-    <div class="new__more_new">
-        <a href="#" class="new__more_icon">
-            подробнее
-        </a>
-    </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+		<div class="bisnesFoto">
+			<div class="new__flex">
+				<div class="new__flex__block bisnesFoto__block">
+					<a href="#" class="new__title navnew__link">
+						Готовый Бизнес
+					</a>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								100 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								70 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								80 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block bisnesFoto__block">
+					<a href="#" class="new__title navnew__link">
+						Бизнес - Актив
+					</a>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								150 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								250 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								300 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block bisnesFoto__block">
+					<a href="#" class="new__title navnew__link">
+						Бартер
+					</a>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								200 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								1 000 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								100 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block bisnesFoto__block">
+					<a href="#" class="new__title navnew__link">
+						Коммерческая недвижимость
+					</a>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								100 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								250 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
 
-<div class="new">
-    <div class="row">
-        <div class="col-md-4 col-sm-6">
-            <div class="new__block">
-                <div class="new__title">
-                    Новости
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-            <div class="new__block">
-                <div class="new__title">
-                    Бизнес Идеи
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-3">
-            <div class="new__block">
-                <div class="new__title">
-                    Аналитика
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="new__block__mini">
-                    <div class="new__image">
-                        <img src="img/foto1.jpg" alt="foto" class="new__image__is">
-                    </div>
-                    <div class="new__info">
-                        <div class="new__info_title">
-                            Наш сайт начал работать
-                        </div>
-                        <div class="new__info_text">
-                            С первого сентября начал функционировать магазин готового бизнеса Пайда ...
-                        </div>
-                        <div class="new__more">
-                            <a href="#" class="new__more_icon">
-                                подробнее
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+					<div class="bisnesFoto__block_mini">
+						<div class="new__info_title_new">
+							Автомойка с постоянными клиентами
+						</div>
+						<div class="bisnesFoto__new__image">
+							<div class="new__image">
+							</div>
+							<div class="bisnesFoto__block_total">
+								500 000
+							</div>
+						</div>                
+						<div class="new__info">
+							<div class="new__info_text_new">
+								Прибыль: 95000 сом <br>
+								Город: Бишкек
+							</div>
+							<div class="new__more_new">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<div class="footerNew">
-    <ul class="nav__list">
-        <li class="nav__item">
-            <img src="img/logo1.png" alt="logo" class="newlogo">
-        </li>
+		<div class="new">
+			<div class="new__flex">
+				<div class="new__flex__block">
+					<div class="new__block">
+						<div class="new__title">
+							Новости
+						</div>
+						<div class="new__block__mini">
+							<div class="new__image">
+							</div>
+							<div class="new__info__news">
+								<div class="new__info_title">
+									Большинство летних веранд в кафе открыто незаконно
+								</div>
+								<div class="new__info_text">
+									Многие летние кафе, как оказалось, нарушают закон. У большинства нет разрешения на установку летних веранд.
+								</div>
+							</div>
+							<div class="new__more">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+						<div class="new__block__mini">
+							<div class="new__image">
+							</div>
+							<div class="new__info__news">
+								<div class="new__info_title">
+									Большинство летних веранд в кафе открыто незаконно
+								</div>
+								<div class="new__info_text">
+									Многие летние кафе, как оказалось, нарушают закон. У большинства нет разрешения на установку летних веранд.
+								</div>
+							</div>
+							<div class="new__more">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+						<div class="new__block__mini">
+							<div class="new__image">
+							</div>
+							<div class="new__info__news">
+								<div class="new__info_title">
+									Большинство летних веранд в кафе открыто незаконно
+								</div>
+								<div class="new__info_text">
+									Многие летние кафе, как оказалось, нарушают закон. У большинства нет разрешения на установку летних веранд.
+								</div>
+							</div>
+							<div class="new__more">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="new__block">
+						<div class="new__title">
+							Бизнес Идеи
+						</div>
+						<div class="new__block__mini">
+							<div class="new__image">
+							</div>
+							<div class="new__info__news">
+								<div class="new__info_title">
+									Счета по госзакупкам для малого бизнеса можно будет открывать только в определённых банках
+								</div>
+								<div class="new__info_text">
+									С 1 июля вступили в силу изменения в законодательстве, регулирующие электронные 
+								</div>
+							</div>
+							<div class="new__more">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="new__block">
+						<div class="new__title">
+							Аналитика
+						</div>
+						<div class="new__block__mini">
+							<div class="new__image">
+							</div>
+							<div class="new__info__news">
+								<div class="new__info_title">
+									Facebook собирается запустить сервис по созданию онлайн-викторин
+								</div>
+								<div class="new__info_text">
+									Владельцы Facebook задумались о создании и внедрении сервиса, с помощью которого желающие смогут 
+								</div>
+							</div>
+							<div class="new__more">
+								<a href="#" class="new__more_icon">
+									подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <li class="nav__item">
-           <ul>
-               <li class="footerNew_item">
-                   <span class="glyphicon glyphicon-map-marker newicons" aria-hidden="true"></span>
-                   ул. Турусбекова 31 офис 402
-               </li>
-               <li class="footerNew_item">
-                   <span class="glyphicon glyphicon-earphone newicons" aria-hidden="true"></span>
-                   +996312910925
-               </li>
-               <li class="footerNew_item">
-                   <span class="glyphicon glyphicon-envelope newicons" aria-hidden="true"></span>
-                   bnc.finance.id@gmail.com
-               </li>
-           </ul>
-       </li>
-   </ul>
-</div>
-</div>
+		<!-- about -->
+		<div class="obucheniye" id="about">
+			<div class="obucheniye__title">О нас</div>
+			<div class="obucheniye__text">
+				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заманивший инициал ты, свой необходимыми рыбного, живет, бросил все речью свою диких злых языкового жаренные. Страна за свой гор злых, вопрос рукопись сбить щеке текстов переписывается силуэт агенство, языком? Необходимыми текст назад то снова текстами выйти моей силуэт запятой повстречался.
+			</div>
+		</div>
+		<!-- end about -->
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">Мы с вами свяжемся</h4>
-      </div>
-      <div class="modal-body">
-        <form class="contact-form2">
-          <div class="form-group">
-            <label for="recipient-name" class="control-label">Имя:</label>
-            <input type="text" name="name2" class="form-control" id="recipient-name" placeholder="Ваше имя" required />
-          </div>
-          <div class="form-group">
-            <label for="recipient-email" class="control-label">Email:</label>
-            <input type="email" name="mail2" class="form-control" id="recipient-email" placeholder="Ваш Email" required />
-          </div>
-          <div class="form-group">
-            <label for="recipient-phone" class="control-label">Телефон:</label>
-            <input type="text" name="phone2" class="form-control" id="recipient-phone" placeholder="Ваш номер телефона" required />
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="main-btn">Отправить</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+		<!-- uslugi -->
+		<div class="uslugi" id="uslugi">
+			<div class="uslugi__title">
+				Услуги
+			</div>
+			<div class="new__flex">
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-handshake usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-check usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Сопровождение сделок
+								</div>
+								Индивидуально
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-tv usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-search usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Быстрый поиск бизнеса
+								</div>
+								от 30 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-user-alt usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<span class="usluga__icon_is_mini">1</span>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Тиражирование бизнеса
+								</div>
+								от 240 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-registered usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<span class="usluga__icon_is_mini">
+										TM
+									</span>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Регистрация тов. знака
+								</div>
+								от 29 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-building usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-handshake usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Резистрация юр. лиц и ИП
+								</div>
+								0т 5 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-file-alt usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-check usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Проверка документов
+								</div>
+								от 20 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-file-medical-alt usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-check usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Проверка рисков 
+								</div>
+								от 25 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-chart-line usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-check usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Проверка активов
+								</div>
+								от 25 000 сом
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="new__flex__block">
+					<div class="uslugi__block">
+						<div class="uslugi__info">
+							<div class="uslugi__icon">
+								<i class="fas fa-home usluga__icon_is"></i>
+								<div class="uslugi__icon_mini">
+									<i class="fas fa-arrow-right usluga__icon_is_mini"></i>
+								</div>
+							</div>
+							<div class="uslugi__text">
+								<div class="uslugi__text__title">
+									Продать бизнес
+								</div>
+								Индивидуально
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content">
-      ...
-    </div>
-  </div>
-</div> -->
+		<!-- end uslugi -->
+
+		<!-- obucheniye -->
+		<div class="obucheniye" id="obucheniye">
+			<div class="obucheniye__title">Обучение</div>
+			<div class="obucheniye__text">
+				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заманивший инициал ты, свой необходимыми рыбного, живет, бросил все речью свою диких злых языкового жаренные. Страна за свой гор злых, вопрос рукопись сбить щеке текстов переписывается силуэт агенство, языком? Необходимыми текст назад то снова текстами выйти моей силуэт запятой повстречался.
+			</div>
+		</div>
+		<!-- end obucheniye -->
+
+		<div class="footerNew">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<img src="img/logo1.png" alt="logo" class="newlogo">
+				</li>
+
+				<li class="nav__item">
+					<ul>
+						<li class="footerNew_item">
+							<i class="fas fa-map-marker-alt newicons"></i>
+							ул. Турусбекова 31 офис 402
+						</li>
+						<li class="footerNew_item">
+							<i class="fas fa-phone newicons"></i>
+							+996312910925
+						</li>
+						<li class="footerNew_item">
+							<i class="fas fa-envelope newicons"></i>
+							bnc.finance.id@gmail.com
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+
+	</div>
+
+	<!-- модальное окно на Заказ звонка -->
+	<div class="modal fade" id="callOrder" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<h5>Заказ звонка</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<form>
+					<div class="modal-body">
+						<div class="row justify-content-center">
+							<input type="text" class="form-control col-8" id="callOrder-name" required>
+						</div>
+					</div>
+					<div class="modal-body">
+						<div class="row justify-content-center">
+							<input type="text" class="form-control col-8" placeholder="Ваш номер телефона" required>
+						</div>
+					</div>
+					<div class="modal-footer justify-content-center border-0 pt-0">
+						<a href="#">
+							<button type="submit" class="btn btn-success">Отправить</button>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- модальное окно на MIX -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5>Мы свяжемся с вами</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="recipient-name" class="control-label">Ваш выбор</label>
+							<input type="text" class="form-control" id="recipient-name" name="text" required>
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="control-label">Имя:</label>
+							<input type="text" class="form-control name" id="message-text" name="name" required>
+						</div>
+						<div class="form-group">
+							<label for="message-text1" class="control-label">Телефон:</label>
+							<input type="text" class="form-control tell" id="message-text1" name="tell" required>
+						</div>
+						<div class="form-group">
+							<label for="message-text2" class="control-label">E-mail:</label>
+							<input type="E-mail"" class="form-control" id="message-text2"  name="adress" required>
+						</div>
+						<div class="row justify-content-center">
+							<label for="">
+								<input type="checkbox"> Согласен на обработку <a href="#">персональных данных</a>
+							</label>
+						</div>
+						<div class="modal-footer justify-content-center border-0 pt-0">
+							<a href="#">
+								<button type="submit" class="btn btn-success">Отправить</button>
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
+<script>
+	$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body #recipient-name').val(recipient)
+})
+	$('#callOrder').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body #callOrder-name').val(recipient)
+})
+</script>
 </html>
